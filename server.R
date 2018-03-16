@@ -3,6 +3,8 @@ library(ggplot2)
 library(rpart)
 library(stringr)
 library(dplyr)
+library(titanic)
+
 
 # Define server logic required to draw a histogram
 shinyServer(function(input, output) {
@@ -18,7 +20,7 @@ shinyServer(function(input, output) {
   categorical_vars <- c("Pclass", "Sex", "Embarked")
   out_var <- "Survived"
   df_sel$Survived <- as.character(df_sel$Survived) 
-  df_sel$Survived <- Recode(df_sel$Survived, "'0'='Jack'; '1'='Rose'")
+  df_sel$Survived <- car::Recode(df_sel$Survived, "'0'='Jack'; '1'='Rose'")
   
   df_sel <- df_sel[,c(cont_vars, categorical_vars, out_var)]
   df_sel <- df_sel[complete.cases(df_sel),]
