@@ -163,7 +163,7 @@ shinyServer(function(input, output) {
   
   output$plotDown <- downloadHandler( filename = "JackAndRose.pdf",
                                       content = function(file){
-                                        pdf(file,paper = "a4r") # open the pdf device
+                                        pdf(file, width = 11.7, height = 8.3, paper = "a4r") # open the pdf device
                                         rpart.plot::rpart.plot(rpart_fit(), type = 4)
                                         dev.off()  # turn the device off
                                       })
