@@ -1,8 +1,6 @@
 # RoseJack
 Dynamic Decision tree
 
-![Screen Shot](img/screenshot_1.png)
-
 ## Install and deploy
 If used for the first time, install the dependencies:
 ```R
@@ -33,3 +31,6 @@ In the main panel there are three tabs which show various outputs:
 * Tree: The decision tree, including a download button to save it as a pdf
 * Data: The active data frame that is used for the current analysis
 * Distribution: The overall distribution of the outcome
+
+## Screen shot
+![Screen Shot](img/screenshot_1.png)
