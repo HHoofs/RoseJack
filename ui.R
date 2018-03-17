@@ -25,7 +25,7 @@ shinyUI(fluidPage(
       tabsetPanel(
         tabPanel("Tree",
                  plotOutput("distPlot"),
-                 downloadButton(outputId = "plotDown", label = "Download the plot"),
+                 downloadButton(outputId = "plotDown",label = "Download the plot"),
                  verbatimTextOutput("form")
         ),
         tabPanel("Data",
