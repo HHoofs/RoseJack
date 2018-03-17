@@ -8,6 +8,9 @@ install.packages("ggplot2")
 install.packages("rpart")
 install.packages("stringr")
 install.packages("dplyr")
+install.packages("titanic")
+install.packages("car")
+install.packages("rpart.plot")
 ```
 
 Then:
@@ -16,7 +19,7 @@ shiny::runGitHub("HHoofs/RoseJack")
 ```
 
 There are three panes on the left side to provide input to the analysis:
-* Tree paramters: Adjust the paramters for the decision tree
+* Tree parameters: Adjust the paramters for the decision tree
 * Continous features: The continous features in the dataset, which can be *included* and/or used to *filter* the dataset
 * Categorical features: The categorical features in the dataset, which can be *included* and/or used to *filter* the dataset
 
