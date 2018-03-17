@@ -1,7 +1,7 @@
 # RoseJack
 Dynamic Decision tree
 
-![Screen Shot][img\screenshot_1.png]
+![Screen Shot](img/screenshot_1.png)
 
 ## Install and deploy
 If used for the first time, install the dependencies:
