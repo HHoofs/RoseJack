@@ -23,8 +23,8 @@ shiny::runGitHub("HHoofs/RoseJack")
 ### Side panel
 There are three panes on the left side to provide input to the analysis:
 * Tree parameters: Adjust the paramters for the decision tree
-* Continous features: The continous features in the dataset, which can be *included* and/or used to *filter* the dataset
-* Categorical features: The categorical features in the dataset, which can be *included* and/or used to *filter* the dataset
+* Continous features: The continous features in the dataset, which can be **included** and/or used to **filter** the dataset
+* Categorical features: The categorical features in the dataset, which can be **included** and/or used to **filter** the dataset
 
 ### Main panel
 In the main panel there are three tabs which show various outputs:
